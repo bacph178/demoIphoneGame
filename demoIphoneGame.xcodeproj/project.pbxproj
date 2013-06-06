@@ -266,6 +266,7 @@
 		8454AA2E175F0D3E007ABE78 /* cpVect.c in Sources */ = {isa = PBXBuildFile; fileRef = 8454AA2D175F0D3E007ABE78 /* cpVect.c */; };
 		8454AA35175F0D3E007ABE78 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8454AA34175F0D3E007ABE78 /* AppDelegate.cpp */; };
 		8454AA38175F0D3E007ABE78 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8454AA37175F0D3E007ABE78 /* HelloWorldScene.cpp */; };
+		8454AA3F175F2A0D007ABE78 /* IMG_9215.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8454AA3E175F2A0D007ABE78 /* IMG_9215.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -832,6 +833,7 @@
 		8454AA34175F0D3E007ABE78 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		8454AA36175F0D3E007ABE78 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		8454AA37175F0D3E007ABE78 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		8454AA3E175F2A0D007ABE78 /* IMG_9215.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_9215.JPG; path = ../../../../../Downloads/IMG_9215.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -902,6 +904,7 @@
 		8454A6D1175F0D34007ABE78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8454AA3E175F2A0D007ABE78 /* IMG_9215.JPG */,
 				8454A6D2175F0D34007ABE78 /* CloseNormal.png */,
 				8454A6D4175F0D34007ABE78 /* CloseSelected.png */,
 				8454A6D6175F0D34007ABE78 /* Default.png */,
@@ -2047,6 +2050,7 @@
 				8454A6E7175F0D34007ABE78 /* iTunesArtwork in Resources */,
 				8454A783175F0D36007ABE78 /* ChangeLog in Resources */,
 				8454A8ED175F0D3B007ABE78 /* project.pbxproj in Resources */,
+				8454AA3F175F2A0D007ABE78 /* IMG_9215.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2381,6 +2385,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"demoIphoneGame/libs/Chipmunk/include/chipmunk\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2405,6 +2410,7 @@
 					"-lsqlite3",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"demoIphoneGame/libs/Chipmunk/include/chipmunk\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -2430,6 +2436,7 @@
 				8454AA3D175F0D3E007ABE78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

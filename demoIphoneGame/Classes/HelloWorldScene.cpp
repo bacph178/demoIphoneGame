@@ -51,25 +51,30 @@ bool HelloWorld::init()
 
     // add a label shows "Hello World"
     // create and initialize a label
-    CCLabelTTF* pLabel = CCLabelTTF::create("Hello World", "Thonburi", 34);
+    CCLabelTTF* pLabel = CCLabelTTF::create("Phùng Hoàng Bắc", "Thonburi", 34);
 
     // ask director the window size
     CCSize size = CCDirector::sharedDirector()->getWinSize();
 
     // position the label on the center of the screen
-    pLabel->setPosition( ccp(size.width / 2, size.height - 20) );
+    pLabel->setPosition( ccp(size.width / 3, size.height - 40) );
 
     // add the label as a child to this layer
     this->addChild(pLabel, 1);
 
     // add "HelloWorld" splash screen"
-    CCSprite* pSprite = CCSprite::create("HelloWorld.png");
+    CCSprite* pSprite = CCSprite::create("Icon-72.png");
 
     // position the sprite on the center of the screen
     pSprite->setPosition( ccp(size.width/2, size.height/2) );
+    
+    //add a new sprite
+    CCSprite *newSprite = CCSprite::create("Icon-72.png");
+    newSprite->setPosition(ccp(size.width/2-20,size.height/2-20));
+    this->addChild(newSprite,0);
 
     // add the sprite as a child to this layer
-    this->addChild(pSprite, 0);
+    this->addChild(pSprite, 1);
     
     return true;
 }
